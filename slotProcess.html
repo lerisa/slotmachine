@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.100.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    <script src="js/slotProcess.js"></script>
+    <link href="CSS/slots.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="div1" class="score">
+
+    </div>
+    <div>
+        <h2>Slot Process</h2>
+        <br>
+        <label>Tokens:</label><p id="token"></p>
+        <label>High Score:</label><p id="highScore"></p>
+        <label>Leaderboard position :</label><p id="position"></p>
+        <div id="div2">
+            <img id="L_img" src="images/cherry.png">
+            <img id="M_img" src="images/cherry.png">
+            <img id="R_img" src="images/cherry.png">
+        </div>
+        <label>Bet:</label> <input type="number" id="bet" max=100 min=0>
+        <button id="btn1" onclick="initiatePull()">Click me!</button><br><br>
+        <label>Score:</label>
+        <p type="text" id="score"><br>
+          <h2><p id="message"/></h2>
+    </div>
+
+</body>
+
+</html>

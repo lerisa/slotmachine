@@ -1,0 +1,15 @@
+img{
+    height:100px;
+    width: 100px;
+}
+#div2{
+    padding: 25px;
+    border: 2px solid red;
+    background-image: url("../images/background.jpg");
+    height:120px;
+    width:330px;
+}
+body{
+    align-content: center;
+    padding-left: 450px;
+}
